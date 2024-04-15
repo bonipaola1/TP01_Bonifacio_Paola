@@ -6,7 +6,7 @@ b= float(JOptionPane.showInputDialog("Escribir la variable b"));
 c= float(JOptionPane.showInputDialog("Escribir la variable c"));
 
 float discriminante = pow(b, 2) - 4*a*c;
-printl("la discriminante es igual: " + discriminante);
+println("la discriminante es igual: " + discriminante);
 
 if (discriminante > 0){
  float x1= (-b + sqrt(discriminante)) / (2 * a); 
